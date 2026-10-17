@@ -12,23 +12,23 @@ theme:
   logo: assets/mark.svg
   favicon: assets/logo.svg
   font:
-    text: EB Garamond
+    text: Inter
     code: JetBrains Mono
   icon:
     repo: fontawesome/brands/github
   palette:
-    - scheme: slate
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to parchment
     - scheme: default
       primary: custom
       accent: custom
       toggle:
         icon: material/weather-night
-        name: Switch to night watch
+        name: Switch to dark mode
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
   features:
     - navigation.tabs
     - navigation.sections

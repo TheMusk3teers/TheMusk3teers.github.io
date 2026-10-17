@@ -8,7 +8,7 @@ Like Dumas' heroes, we ride together. All for one, one for all.
 
 <div class="grid cards" markdown>
 
--   :material-chess-knight: **d'Artagnan · Captain**
+-   **d'Artagnan · Captain**
 
     ---
 
@@ -16,13 +16,13 @@ Like Dumas' heroes, we ride together. All for one, one for all.
 
     Founder of the company, rallies the troops when a challenge won't fall.
 
--   :material-feather: **Musketeer**
+-   **Musketeer**
 
     ---
 
     **[chaimae098](https://github.com/chaimae098)** · [CTFtime](https://ctftime.org/user/259807)
 
--   :material-sword: **Musketeer**
+-   **Musketeer**
 
     ---
 
