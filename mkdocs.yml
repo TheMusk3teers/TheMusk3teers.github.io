@@ -1,0 +1,81 @@
+site_name: TheMusk3teers
+site_url: https://themusk3teers.github.io/
+site_description: A Moroccan CTF team. Tous pour un, un pour tous.
+repo_url: https://github.com/TheMusk3teers/TheMusk3teers.github.io
+repo_name: TheMusk3teers
+edit_uri: edit/main/docs/
+copyright: "Tous pour un, un pour tous · © 2026 TheMusk3teers"
+
+theme:
+  name: material
+  language: en
+  logo: assets/mark.svg
+  favicon: assets/logo.svg
+  font:
+    text: EB Garamond
+    code: JetBrains Mono
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to parchment
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to night watch
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+
+extra_css:
+  - stylesheets/musketeers.css
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/TheMusk3teers
+      name: TheMusk3teers on GitHub
+    - icon: fontawesome/solid/flag
+      link: https://ctftime.org/
+      name: TheMusk3teers on CTFtime
+
+nav:
+  - Home: index.md
+  - The Company: members.md
+  - Campaigns:
+      - ctfs/index.md
+      - DEADFACE CTF 2026: ctfs/deadface-2026/index.md
+  - The Codex: contributing.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - toc:
+      permalink: "⚜"
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
