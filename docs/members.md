@@ -1,8 +1,8 @@
 ---
-title: The Company
+title: The Team
 ---
 
-# The Company
+# The Team
 
 Like Dumas' heroes, we ride together. All for one, one for all.
 
@@ -14,7 +14,7 @@ Like Dumas' heroes, we ride together. All for one, one for all.
 
     **[H0ussamCl4p](https://github.com/H0ussamCl4p)** · [CTFtime](https://ctftime.org/user/276586)
 
-    Founder of the company, rallies the troops when a challenge won't fall.
+    Founder of the team, rallies the troops when a challenge won't fall.
 
 -   **Musketeer**
 
@@ -32,5 +32,5 @@ Like Dumas' heroes, we ride together. All for one, one for all.
 
 <div class="mk-divider">⚜</div>
 
-!!! note "Joining the company"
+!!! note "Joining the team"
     New members are added once they accept the GitHub org invite and join the team on [CTFtime](https://ctftime.org/team/452389).

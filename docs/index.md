@@ -16,7 +16,7 @@ hide:
 <p class="mk-hero__sub">We're TheMusk3teers, students from Morocco. We play Capture The Flag competitions as <strong>4Musketeers</strong>, hackathons are next, and our writeups live here.</p>
 
 [Our campaigns](ctfs/index.md){ .md-button .md-button--primary }
-[Meet the company](members.md){ .md-button }
+[Meet the team](members.md){ .md-button }
 
 </div>
 

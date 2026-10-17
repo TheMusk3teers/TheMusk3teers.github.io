@@ -54,7 +54,7 @@ extra:
 
 nav:
   - Home: index.md
-  - The Company: members.md
+  - The Team: members.md
   - Campaigns:
       - ctfs/index.md
       - DEADFACE CTF 2026: ctfs/deadface-2026/index.md
