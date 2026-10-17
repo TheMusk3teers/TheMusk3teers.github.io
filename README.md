@@ -1,6 +1,6 @@
 # TheMusk3teers.github.io
 
-Website and CTF writeups of **TheMusk3teers** (plays as *4Musketeers*). Live at https://themusk3teers.github.io
+Website and CTF writeups of **TheMusk3teers** (plays as *4Musketeers*, [CTFtime](https://ctftime.org/team/452389)). CTFs for now, hackathons next. Live at https://themusk3teers.github.io
 
 *Tous pour un, un pour tous.*
 

@@ -13,7 +13,7 @@ hide:
 
 <p class="mk-hero__motto">Tous pour un, un pour tous</p>
 
-<p class="mk-hero__sub">Four students from Morocco, one blade. We play Capture The Flag competitions as <strong>4Musketeers</strong> and keep our writeups here.</p>
+<p class="mk-hero__sub">Students from Morocco, one blade. We play Capture The Flag competitions as <strong>4Musketeers</strong>, hackathons are next, and our writeups live here.</p>
 
 [Our campaigns](ctfs/index.md){ .md-button .md-button--primary }
 [Meet the company](members.md){ .md-button }
@@ -43,6 +43,12 @@ hide:
     ---
 
     Every solved challenge gets a clear writeup so the next musketeer learns faster.
+
+-   :material-lightbulb-on: **Hackathons (coming soon)**
+
+    ---
+
+    CTFs first. Next we take the same team spirit to hackathons and build things together.
 
 -   :material-shield-crown: **Learning together**
 

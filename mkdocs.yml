@@ -1,6 +1,6 @@
 site_name: TheMusk3teers
 site_url: https://themusk3teers.github.io/
-site_description: A Moroccan CTF team. Tous pour un, un pour tous.
+site_description: A Moroccan CTF and hackathon team. Tous pour un, un pour tous.
 repo_url: https://github.com/TheMusk3teers/TheMusk3teers.github.io
 repo_name: TheMusk3teers
 edit_uri: edit/main/docs/
@@ -49,7 +49,7 @@ extra:
       link: https://github.com/TheMusk3teers
       name: TheMusk3teers on GitHub
     - icon: fontawesome/solid/flag
-      link: https://ctftime.org/
+      link: https://ctftime.org/team/452389
       name: TheMusk3teers on CTFtime
 
 nav:
