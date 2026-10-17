@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;800&display=swap");
+
+/* The King's Musketeers: blue cassock, red lining, silver cross, gilt trim */
+:root {
+  --mk-royal: #1f3c88;
+  --mk-navy: #0e1530;
+  --mk-crimson: #a3192b;
+  --mk-gold: #c9a24a;
+  --mk-silver: #d6dae3;
+  --md-admonition-icon--flag: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.4 6 14 4H5v17h2v-7h5.6l.4 2h7V6z"/></svg>');
+}
+
+/* Night watch (dark) */
+[data-md-color-scheme="slate"] {
+  --md-hue: 225;
+  --md-primary-fg-color: #13214a;
+  --md-primary-fg-color--light: #1f3c88;
+  --md-primary-fg-color--dark: #0b142e;
+  --md-accent-fg-color: #c9a24a;
+  --md-accent-fg-color--transparent: rgba(201, 162, 74, 0.12);
+  --md-default-bg-color: #0e1530;
+  --md-default-fg-color: rgba(238, 240, 245, 0.92);
+  --md-default-fg-color--light: rgba(214, 218, 227, 0.72);
+  --md-code-bg-color: #0a1025;
+  --md-typeset-a-color: #d9b866;
+  --mk-heading: #e2c47a;
+}
+
+/* Parchment (light) */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #1f3c88;
+  --md-primary-fg-color--light: #3352a3;
+  --md-primary-fg-color--dark: #142a63;
+  --md-accent-fg-color: #a3192b;
+  --md-accent-fg-color--transparent: rgba(163, 25, 43, 0.1);
+  --md-default-bg-color: #f7f2e6;
+  --md-code-bg-color: #efe7d4;
+  --md-typeset-a-color: #1f3c88;
+  --mk-heading: #1f3c88;
+}
+
+body { background-color: var(--md-default-bg-color); }
+
+.md-header { border-bottom: 2px solid var(--mk-gold); }
+.md-tabs { border-bottom: 1px solid rgba(201, 162, 74, 0.35); }
+.md-header__topic:first-child,
+.md-tabs__link { font-family: "Cinzel", Georgia, serif; letter-spacing: 0.04em; }
+
+.md-typeset { font-size: 0.86rem; line-height: 1.7; }
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  font-family: "Cinzel", Georgia, serif;
+  color: var(--mk-heading);
+  letter-spacing: 0.03em;
+}
+.md-typeset h1 { font-weight: 800; }
+.md-typeset h2 {
+  font-weight: 700;
+  padding-bottom: 0.25em;
+  border-bottom: 1px solid rgba(201, 162, 74, 0.35);
+}
+.md-typeset code { font-size: 0.82em; }
+
+/* Buttons: gilt edge */
+.md-typeset .md-button {
+  font-family: "Cinzel", Georgia, serif;
+  border-color: var(--mk-gold);
+  color: var(--mk-gold);
+  border-radius: 2px;
+  letter-spacing: 0.05em;
+}
+[data-md-color-scheme="default"] .md-typeset .md-button { color: var(--mk-royal); border-color: var(--mk-royal); }
+.md-typeset .md-button--primary,
+[data-md-color-scheme="default"] .md-typeset .md-button--primary {
+  background: var(--mk-crimson);
+  border-color: var(--mk-crimson);
+  color: #fff;
+}
+.md-typeset .md-button:hover { background: var(--mk-gold); border-color: var(--mk-gold); color: #0e1530; }
+
+/* Hero */
+.mk-hero { text-align: center; padding: 1.5rem 0 1rem; }
+.mk-hero__logo { width: 168px; height: 168px; filter: drop-shadow(0 6px 18px rgba(0, 0, 0, 0.35)); }
+.md-typeset .mk-hero__title {
+  font-size: 2.6rem;
+  margin: 0.6rem 0 0.2rem;
+  border: 0;
+}
+.mk-hero__motto {
+  font-family: "Cinzel", Georgia, serif;
+  font-size: 1.05rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--mk-crimson);
+  margin: 0;
+}
+[data-md-color-scheme="slate"] .mk-hero__motto { color: #e05a6a; }
+.mk-hero__sub { max-width: 34rem; margin: 0.8rem auto 1.4rem; font-size: 1.02rem; opacity: 0.9; }
+.mk-hero .md-button { margin: 0.25rem; }
+
+/* Fleur-de-lis divider */
+.mk-divider { display: flex; align-items: center; gap: 0.8rem; color: var(--mk-gold); margin: 1.6rem 0; }
+.mk-divider::before,
+.mk-divider::after { content: ""; flex: 1; height: 1px; background: linear-gradient(90deg, transparent, var(--mk-gold), transparent); }
+
+/* Cards */
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid > .card {
+  border: 1px solid rgba(201, 162, 74, 0.35);
+  border-top: 3px solid var(--mk-crimson);
+  border-radius: 2px;
+  background: var(--md-accent-fg-color--transparent);
+}
+.md-typeset .grid.cards > ul > li:hover { border-color: var(--mk-gold); border-top-color: var(--mk-crimson); }
+
+/* Tables */
+.md-typeset table:not([class]) th {
+  background: var(--md-primary-fg-color);
+  color: #eef0f5;
+  font-family: "Cinzel", Georgia, serif;
+  letter-spacing: 0.04em;
+}
+
+/* Custom admonition: !!! flag */
+.md-typeset .admonition.flag,
+.md-typeset details.flag { border-color: var(--mk-gold); }
+.md-typeset .flag > .admonition-title,
+.md-typeset .flag > summary { background-color: rgba(201, 162, 74, 0.14); }
+.md-typeset .flag > .admonition-title::before,
+.md-typeset .flag > summary::before {
+  background-color: var(--mk-gold);
+  -webkit-mask-image: var(--md-admonition-icon--flag);
+  mask-image: var(--md-admonition-icon--flag);
+}
+
+@media screen and (max-width: 44.9375em) {
+  .md-typeset .mk-hero__title { font-size: 1.9rem; }
+  .mk-hero__logo { width: 128px; height: 128px; }
+  .mk-hero__motto { font-size: 0.9rem; letter-spacing: 0.1em; }
+}
