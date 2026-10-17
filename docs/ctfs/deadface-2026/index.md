@@ -1,5 +1,7 @@
 ---
 title: DEADFACE CTF 2026
+tags:
+  - DEADFACE CTF 2026
 ---
 
 # DEADFACE CTF 2026

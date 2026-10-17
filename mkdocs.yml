@@ -51,6 +51,33 @@ extra:
     - icon: fontawesome/solid/flag
       link: https://ctftime.org/team/452389
       name: TheMusk3teers on CTFtime
+    - icon: fontawesome/solid/rss
+      link: https://themusk3teers.github.io/feed_rss_created.xml
+      name: News RSS feed
+
+plugins:
+  - search
+  - tags
+  - blog:
+      blog_toc: true
+      post_date_format: medium
+      archive_date_format: MMMM yyyy
+      categories_allowed:
+        - Announcements
+        - Campaigns
+        - Hackathons
+  - rss:
+      match_path: "blog/posts/.*"
+      use_git: false
+      date_from_meta:
+        as_creation: date.created
+      categories:
+        - categories
+        - tags
+  - social:
+      cards_layout_options:
+        background_color: "#1c3578"
+        color: "#fbf9f4"
 
 nav:
   - Home: index.md
@@ -58,6 +85,9 @@ nav:
   - Campaigns:
       - ctfs/index.md
       - DEADFACE CTF 2026: ctfs/deadface-2026/index.md
+      - Tags: tags.md
+  - News:
+      - blog/index.md
   - The Codex: contributing.md
 
 markdown_extensions:

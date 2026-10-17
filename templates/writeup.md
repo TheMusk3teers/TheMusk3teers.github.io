@@ -1,5 +1,8 @@
 ---
 title: Challenge Name
+tags:
+  - DEADFACE CTF 2026
+  - OSINT
 ---
 
 # Challenge Name
@@ -9,7 +12,7 @@ title: Challenge Name
 | **CTF** | DEADFACE CTF 2026 |
 | **Category** | OSINT |
 | **Points** | 100 |
-| **Solved by** | Aramis (@handle) |
+| **Solved by** | @handle |
 
 ## Challenge
 

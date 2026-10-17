@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://themusk3teers.github.io/sitemap.xml

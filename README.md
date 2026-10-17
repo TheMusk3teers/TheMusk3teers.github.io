@@ -7,7 +7,7 @@ Website and CTF writeups of **TheMusk3teers** (plays as *4Musketeers*, [CTFtime]
 ## Run locally
 
 ```bash
-pip install mkdocs-material
+pip install "mkdocs<2" "mkdocs-material[imaging]" mkdocs-rss-plugin
 mkdocs serve
 ```
 
