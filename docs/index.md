@@ -1,5 +1,9 @@
 ---
 title: Home
+social:
+  cards_layout_options:
+    title: "Tous pour un, un pour tous."
+    description: A Moroccan CTF and hackathon team. We play as 4Musketeers.
 hide:
   - navigation
   - toc
