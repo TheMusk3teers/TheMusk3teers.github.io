@@ -8,13 +8,11 @@ Like Dumas' heroes, we ride together. All for one, one for all.
 
 <div class="grid cards" markdown>
 
--   **d'Artagnan · Captain**
+-   **Musketeer**
 
     ---
 
     **[H0ussamCl4p](https://github.com/H0ussamCl4p)** · [CTFtime](https://ctftime.org/user/276586)
-
-    Founder of the team, rallies the troops when a challenge won't fall.
 
 -   **Musketeer**
 
