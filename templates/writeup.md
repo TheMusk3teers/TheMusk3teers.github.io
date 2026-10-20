@@ -12,7 +12,7 @@ tags:
 | **CTF** | DEADFACE CTF 2026 |
 | **Category** | OSINT |
 | **Points** | 100 |
-| **Solved by** | @handle |
+| **Writeup by** | [TheMusk3teers](../../../members.md)<br>@handle |
 
 ## Challenge
 
